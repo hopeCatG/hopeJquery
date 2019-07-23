@@ -64,6 +64,11 @@ mouseleave：鼠标离开事件
     //4.4 删除节点   remove
     //4.5 克隆节点   clone
   
+获取元素宽度
+元素.width()  内容
+元素.innerWidth() 内容+内边距
+元素.outerWidth() 内容+内边距+边框
+元素.outerWidth(true) 内容+内边距+边框+外边距
   
   
   $("div").removeAttr("title");
